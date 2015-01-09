@@ -4,7 +4,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Document.h"
 #import "Report.h"
 
 @interface AppDelegate ()
@@ -21,14 +20,8 @@
     
     // cleaup database each time
     NSManagedObjectContext *defaultContext = [NSManagedObjectContext MR_defaultContext];
-    [Document MR_truncateAllInContext:defaultContext];
     [Report MR_truncateAllInContext:defaultContext];
     [defaultContext MR_saveToPersistentStoreAndWait];
-    
-    self.backgroundManagedObjectContext = [NSManagedObjectContext MR_context];
-    [self.backgroundManagedObjectContext MR_observeContext:defaultContext];
-     self.reportPushService = [[ReportPushService alloc ] initWithManagedObjectContext:self.backgroundManagedObjectContext];
-     self.documentPushService = [[DocumentPushService alloc] initWithManagedObjectContext:self.backgroundManagedObjectContext];
     
     return YES;
 }

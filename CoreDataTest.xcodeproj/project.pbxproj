@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F0124251A49ECF900DE6E27 /* DocumentPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0124241A49ECF900DE6E27 /* DocumentPushService.m */; };
 		2F195AE11A44B1EA000C1750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F195AE01A44B1EA000C1750 /* main.m */; };
 		2F195AE41A44B1EA000C1750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F195AE31A44B1EA000C1750 /* AppDelegate.m */; };
 		2F195AE71A44B1EA000C1750 /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F195AE51A44B1EA000C1750 /* CoreDataTest.xcdatamodeld */; };
@@ -16,9 +15,7 @@
 		2F195AEF1A44B1EA000C1750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F195AEE1A44B1EA000C1750 /* Images.xcassets */; };
 		2F195AF21A44B1EA000C1750 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F195AF01A44B1EA000C1750 /* LaunchScreen.xib */; };
 		2F195AFE1A44B1EB000C1750 /* CoreDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F195AFD1A44B1EB000C1750 /* CoreDataTestTests.m */; };
-		2F195B111A44C352000C1750 /* ReportPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F195B101A44C352000C1750 /* ReportPushService.m */; };
-		2FB1F2FC1A51FD8200F2C442 /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1F2FB1A51FD8200F2C442 /* Report.m */; };
-		2FB1F2FF1A51FD8300F2C442 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1F2FE1A51FD8300F2C442 /* Document.m */; };
+		2F6EF3401A603FE000E2F083 /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6EF33F1A603FE000E2F083 /* Report.m */; };
 		BB51511DEF76AF834670E80B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0884ABED0A8F8F247E486D7B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +32,6 @@
 /* Begin PBXFileReference section */
 		0884ABED0A8F8F247E486D7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A76E70F0B5ED45C2C1346D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		2F0124231A49ECF900DE6E27 /* DocumentPushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentPushService.h; sourceTree = "<group>"; };
-		2F0124241A49ECF900DE6E27 /* DocumentPushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentPushService.m; sourceTree = "<group>"; };
 		2F195ADB1A44B1EA000C1750 /* CoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F195ADF1A44B1EA000C1750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F195AE01A44B1EA000C1750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,12 +47,8 @@
 		2F195AFC1A44B1EB000C1750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F195AFD1A44B1EB000C1750 /* CoreDataTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestTests.m; sourceTree = "<group>"; };
 		2F195B071A44B83E000C1750 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		2F195B0F1A44C352000C1750 /* ReportPushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportPushService.h; sourceTree = "<group>"; };
-		2F195B101A44C352000C1750 /* ReportPushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportPushService.m; sourceTree = "<group>"; };
-		2FB1F2FA1A51FD8200F2C442 /* Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
-		2FB1F2FB1A51FD8200F2C442 /* Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
-		2FB1F2FD1A51FD8300F2C442 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		2FB1F2FE1A51FD8300F2C442 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		2F6EF33E1A603FE000E2F083 /* Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		2F6EF33F1A603FE000E2F083 /* Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
 		A20FF135156F0F84CDD503A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,10 +116,6 @@
 				2F195AE31A44B1EA000C1750 /* AppDelegate.m */,
 				2F195AE81A44B1EA000C1750 /* ViewController.h */,
 				2F195AE91A44B1EA000C1750 /* ViewController.m */,
-				2F195B0F1A44C352000C1750 /* ReportPushService.h */,
-				2F195B101A44C352000C1750 /* ReportPushService.m */,
-				2F0124231A49ECF900DE6E27 /* DocumentPushService.h */,
-				2F0124241A49ECF900DE6E27 /* DocumentPushService.m */,
 				2F195AEB1A44B1EA000C1750 /* Main.storyboard */,
 				2F195AEE1A44B1EA000C1750 /* Images.xcassets */,
 				2F195AF01A44B1EA000C1750 /* LaunchScreen.xib */,
@@ -168,10 +155,8 @@
 		2F195B081A44BDED000C1750 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2FB1F2FD1A51FD8300F2C442 /* Document.h */,
-				2FB1F2FE1A51FD8300F2C442 /* Document.m */,
-				2FB1F2FA1A51FD8200F2C442 /* Report.h */,
-				2FB1F2FB1A51FD8200F2C442 /* Report.m */,
+				2F6EF33E1A603FE000E2F083 /* Report.h */,
+				2F6EF33F1A603FE000E2F083 /* Report.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -311,13 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0124251A49ECF900DE6E27 /* DocumentPushService.m in Sources */,
-				2FB1F2FC1A51FD8200F2C442 /* Report.m in Sources */,
 				2F195AE41A44B1EA000C1750 /* AppDelegate.m in Sources */,
 				2F195AE71A44B1EA000C1750 /* CoreDataTest.xcdatamodeld in Sources */,
-				2FB1F2FF1A51FD8300F2C442 /* Document.m in Sources */,
 				2F195AEA1A44B1EA000C1750 /* ViewController.m in Sources */,
-				2F195B111A44C352000C1750 /* ReportPushService.m in Sources */,
+				2F6EF3401A603FE000E2F083 /* Report.m in Sources */,
 				2F195AE11A44B1EA000C1750 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
